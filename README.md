@@ -23,6 +23,24 @@ workbox: {
 }
 ```
 
+All what you need is [register service worker](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration) for your app.
+
+Register service worker example:
+
+```js
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' })
+        .then(registration => {
+            console.log('Service worker registration succeeded:', registration);
+        })
+        .catch(error => {
+            console.log('Service worker registration failed:', error);
+        });
+} else {
+    console.log('Service workers are not supported.');
+}
+```
+
 ## License
 
 The MIT License (MIT)
