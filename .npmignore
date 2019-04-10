@@ -6,6 +6,7 @@ CVS/
 *~
 *.bak
 .DS_Store
+.idea
 npm-debug.log
 test/
 src/
