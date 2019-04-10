@@ -1,13 +1,13 @@
 {
   "name": "workbox-brunch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds workbox support to brunch.",
   "author": "Kamil Piskorski (https://mvpdoers.com)",
-  "homepage": "https://github.com/brunch/workbox-brunch",
+  "homepage": "https://github.com/kamilpiskorski/workbox-brunch",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/workbox-brunch.git"
+    "url": "git@github.com:kamilpiskorski/workbox-brunch.git"
   },
   "keywords": [
     "brunch",
