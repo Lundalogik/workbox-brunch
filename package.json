@@ -1,0 +1,35 @@
+{
+  "name": "workbox-brunch",
+  "version": "1.0.0",
+  "description": "Adds workbox support to brunch.",
+  "author": "Kamil Piskorski (https://mvpdoers.com)",
+  "homepage": "https://github.com/brunch/workbox-brunch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brunch/workbox-brunch.git"
+  },
+  "keywords": [
+    "brunch",
+    "workbox",
+    "workbox build",
+    "service worker",
+    "pwa",
+    "offline first"
+  ],
+  "scripts": {
+    "test": "eslint index.js && mocha"
+  },
+  "dependencies": {
+    "workbox-build": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3",
+    "eslint": "^3.12.2",
+    "mocha": "^3",
+    "eslint-config-brunch": "brunch/eslint-config-brunch"
+  },
+  "eslintConfig": {
+    "extends": "brunch"
+  }
+}
