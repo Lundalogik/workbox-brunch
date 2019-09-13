@@ -9,6 +9,7 @@ describe('Plugin', () => {
   beforeEach(() => {
     plugin = new Plugin({
       plugins: {},
+      paths: { public: '' }
     });
   });
 
